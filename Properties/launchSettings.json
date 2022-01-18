@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "URLTester": {
+      "commandName": "Project",
+      "commandLineArgs": "www.net-select.de"
+    }
+  }
+}
