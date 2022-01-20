@@ -133,6 +133,10 @@ namespace URLTester
         /// <param name="headline">is the string you like to note down</param>
         private static void WriteSingleHeading(string headline)
         {
+            if (headline.Length < 8)
+            {
+                Console.Write(" ");
+            }
             Console.Write(headline + "\t");
         }
 
